@@ -49,7 +49,7 @@ let value1= parseFloat(Peso);
 let value2= parseFloat(Estatura*2);
 let resultado= parseFloat(value1/value2);
 
-1. console.log("Su IMC es: " + (resultado));
+ console.log("Su IMC es: " + (resultado));
 
     if(resultado<=18.5){
         console.log("Usted tiene desnutricion");
