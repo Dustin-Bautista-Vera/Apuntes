@@ -31,7 +31,7 @@ for(let propiedad in estudiante){
 
 > //for...of
 > //Este ciclo itera sopbre los valores de un objeto iterable (como un array)
-let mis_numeros=[10,20,30,40,50];
+`let mis_numeros=[10,20,30,40,50];`
 
 for(let numero of mis_numeros){
     console.log(numero);
@@ -125,3 +125,31 @@ console.log(!f);
     } else{
         alert("Revisar el tabulador");
     }
+---
+
+> **_//Asi se utilizan los comentarios de una sola linea en JAvaScript_**
+
+```js
+console.log("Biemvenidos al mundo de la programacion FrontEnd con JavaScript");
+
+console.log("Esta en otra linea"+"Y se conecta con el +");
+
+/*
+Esto es un comentario de mas de una linea
+*/
+
+/*
+    En javascript no existe 
+*/
+
+let estudiante= "Juan Perez";
+let edad= 19;
+let isEstudiante= true;
+let calificacion= 92.2;
+
+console.log("Estudiante" + estudiante);
+console.log("Edad" + edad);
+console.log("¿Estudia?" + isEstudiante);
+console.log(typeof calificacion);
+console.log('El promedio global del estudiante es $[calificacion]');
+```
